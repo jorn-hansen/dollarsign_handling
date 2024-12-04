@@ -1,0 +1,9 @@
+name: myapp
+
+services:
+  foo:
+    image: busybox
+    environment:
+      ENV_NAME: ENV_NAMEX
+      NAME_WITH_DOLLAR_SIGN_FROM_ENV: $NAME_WITH_DOLLAR_SIGN_FROM_ENV
+    command: sh -c "echo TO DAY $NAME_WITH_DOLLAR_SIGN_FROM_ENV and $NAME_FROM_ENV && printenv"
