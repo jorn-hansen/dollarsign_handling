@@ -13,7 +13,7 @@ in the environments part of the the docker compose file.
 
 ## Example 
 
-Refer to the following [docker compose file](./docker-compose.yml) and [environment file](./.env).
+Refer to the following [docker compose file](./docker-compose.yml) and [environment file](./.env.sample).
 
 When running with `docker up`:
 
